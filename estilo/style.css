@@ -122,10 +122,6 @@ header p {
 
 /* Linguagens */
 
-section {
-    width: 100%;
-}
-
 section h2 {
     padding-top: 2em;
     text-align: center;
@@ -134,22 +130,18 @@ section h2 {
 #linguagens {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-evenly;
-    height: 50vh;
-    padding: 0 30px;
+    align-items: baseline;
+    margin: auto;
+    text-align: center;
 }
 
-.caixa-menor {
-    text-align: center;
-    margin-top: 30px;
-    min-width: 80px;
-}
+
 
 #linguagens img {
-    height: 100px;
-    margin: 0 10px 0 0;
+    height: 170px;
     padding: 5px;
-    width: 100%;
 }
 
 /* Fotos */
@@ -169,6 +161,7 @@ figure h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    list-style-type: none;
 }
 
 /* contato */ 
